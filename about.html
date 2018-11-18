@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("background.jpg");
+
+    /* Full height */
+    height: 2500px; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {margin:0;}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: gray;
+}
+
+
+.city{
+	background-color: gray;
+	color: white;
+	padding: 15px;
+}div {
+    border: 1px solid gray;
+    padding: 8px;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+
+p {
+    text-indent: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+a {
+    text-decoration: none;
+    color: #008CBA;
+}
+table, th, td {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 100px;
+	
+}
+th {
+    text-align: left;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #808080;
+   color: white;
+   text-align: center-right;
+  
+}
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+
+.overlay {
+  position: ;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10%;
+  width: 10%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+
+
+
+
+
+</style>
+
+<ul>
+  <li><a class="active" href="webpage.html">Home</a></li>
+  <li><a href="bio.html"><b>Portfolio</b></a></li>
+  <li><a href="achievements.html"><b>Resume</b></a></li>
+   <li><a href="myschool.html"><b>Myschool</b></a></li>
+  <li><a href="about.html">About</a></li>
+</ul>
+</head>
+
+<body>
+
+<div class="bg">
+<br><br>
+
+<h2 class="city">Personal Background</h2>
+<img src="pic1.jpg" alt="seal" style="float:left;width:350px;height:300px;">
+<br>
+<p class="par">I am Joshua Quilala, 19 years of age. Born in Quezon City Manila on August 18,1999 but raised in Baguio City. I am currently taking Bachelor of Science 
+in Information Technology Web Technology Track. 
+I have 2 siblings and I am the youngest. My brother, the eldest, is visual designer in camp john hay while my 
+sister is taking Hotel and Restaurant Management in the University of Baguio.
+My father owned a business, one of the best pest control terminator services in northern luzon. 
+My mother is a freelance facialist.  </p>
+
+<br><br>
+<br><br>
+<br><br>
+<br><br>
+
+
+
+<h2 class="city">Educational Background</h2>
+<center>
+<p>University of the Cordillera Senior High School s.y 2016-2018</p>
+<a href="http://www.uc-bcf.edu.ph/"> 
+	<img src="UC.png" alt="UC"style="width:70px;height:100px;border:0">
+	</a>
+
+<p>Mil-an National High School Junior High s.y 2012-2016</p>
+<a href="https://www.edukasyon.ph/schools/mil-an-national-high-school"> 
+	<img src="deped.png" alt="Mil-an" style="width:100px;height:100px;border:0">
+</a>
+
+<p>Loakan Elementary School s.y 2008-2012</p>
+<a href="https://www.tutorialspoint.com/html/html_elements.htm"> 
+	<img src="deped.png" alt="Mil-an" style="width:100px;height:100px;border:0">
+</a>
+
+<p>University of the Cordilleras Laboratory High School s.y 2004-2008 </p>
+<a href="http://www.uc-bcf.edu.ph/"> 
+<img src="UC.png" alt="UC"style="width:70px;height:100px;border:0"></a>
+
+</center>
+<h2 class="city">Personal Interest </h2>
+<center>
+<p> Photography is One of my Interest</p>
+
+<center>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="trees.jpg">
+     <img src="trees.jpg" width="350" height="250">
+	 <div class="desc">PMA </div>
+    </a>
+  
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="len.jpg">
+     <img src="len.jpg" width="350" height="250">
+	 <div class="desc">San Juan with my favorite Model</div>
+    </a>
+  
+  </div>
+</div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="flower.jpg">
+    <img src="flower.jpg" width="350" height="250">
+	<div class="desc">Macho Temple La Union</div>
+    </a>
+  
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="pot.png">
+    <img src="pot.png" width="350" height="200">
+	<div class="desc">Burnay Pottery in Vigan</div>
+    </a>
+  
+  </div>
+</div>
+
+
+<p>Film making is my Passion</p>
+
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="bagkat.mp4">
+    <img src="bagkat.png" width="350" height="200">
+	<div class="desc">bagkat <br> Top 6 of ToFarm Film Festival 2018</div>
+
+    </a>
+  
+  </div>
+  </div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="salabay.mp4">
+    <img src="salabay.png" width="350" height="200">
+	<div class="desc">salabay <br> Green is in Short Film Chamption 2017</div>
+    </a>
+  
+  </div>
+  </div>
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="gawad 101.mp4">
+    <img src="gawad.png" width="350" height="200">
+	<div class="desc">gawad<br> 3rd Place green is in Short Video 2018</div>
+    </a>
+  
+  </div>
+  </div><div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="a love story.mp4">
+    <img src="frens.png" width="350" height="200">
+	<div class="desc">a love story <br>2018</div>
+    </a>
+  
+  </div>
+  </div><div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="kaya.png">
+	<img src="kaya.png" width="350" height="200">
+	<div class="desc">Kaya Pala Music Video 2018</div>
+    </a>
+  
+  </div>
+  </div><div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="reminisce.mp4">
+   <img src="remi.png" width="350" height="200">
+	<div class="desc">Reminisce Stop Motion Short Film 2018</div>
+    </a>
+  
+  </div>
+  </div><div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="kakalimutan.mp4">
+    <img src="pag alala.png" width="350" height="200">
+	<div class="desc">Sa Hindi Pag-alala Music Video</div>
+    </a>
+  
+  </div>
+  </div>
+  <div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="plastic bag.mp4">
+    <img src="plastic bag.png" width="350" height="200">
+	<div class="desc">Plastic Bag<br> UC Short Film Champion 2017</div>
+    </a>
+  
+  </div>
+  </div>
+</center>
+
+
+<p>My Bucket List</p>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="travel len.mp4">
+    <img src="travel 1.jpg" width="350" height="200">
+	<div class="desc">Ilocos Adventure with my bestfriend<br> Feb. 2018</div>
+    </a>
+  
+  </div>
+  </div>
+<div class="responsive">
+<div class="gallery">
+    <a target="_blank" href="gala.mp4">
+    <img src="galaland.png" width="350" height="200">
+	<div class="desc">Bacnotan Adventure with my friends<br> Aug. 2018</div>
+    </a>
+  
+  </div>
+  </div>
+
+  
+<div class="responsive">
+<div class="gallery">
+    <a target="_blank" href="travel vlogers.mp4">
+    <img src="travel vlogerss.png" width="350" height="200">
+	<div class="desc">Baoang Adventure Aug. 2018<br> Aug. 2018</div>
+    </a>
+  
+  </div>
+  </div>
+
+
+<div class="responsive">
+<div class="gallery">
+    <a target="_blank" href="medal.jpg">
+    <img src="medal.jpg" width="100" height="150">
+	<div class="desc">First Medal SHS 2018<br> Aug. 2018</div>
+    </a>
+  
+  </div>
+  </div>
+
+
+
+
+
+<div class="footer">
+
+<a href="https://www.facebook.com/joshuacq"><img src="fb.png" width="20" height="20"> </a>
+	<a href="https://twitter.com/juswa_kilala"><img src="twits.png" width="20" height="20"> </a>
+	<a href="https://www.instagram.com/juswakilala/"><img src="insta.png" width="20" height="20"> </a>
+	<a href="https://www.instagram.com/juswakilala/"><img src="gmail.png" width="20" height="20"> </a>
+
+</body>
+
+</html>
